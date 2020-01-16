@@ -1,0 +1,49 @@
+body{
+    background-color: slategray;
+}
+
+div#board{
+    padding: 3em;
+}
+
+div.row > div {
+    float: left;
+    width: 150px;
+    height: 150px;
+    clear: right;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.row{
+    margin: 0 auto;
+    width: 468px;
+}
+
+.cell{
+    display: flex;
+    border: 3px solid black;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+.winner{
+    color: green;
+    display: none;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.reset{
+    float: right;
+    padding: 10px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
